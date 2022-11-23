@@ -1,6 +1,6 @@
 import "./index.html";
 import "./index.sass";
+import {mult, sum} from './modules/calc';
 
-const mult = (a, b) => a * b;
 console.log(mult(2, 4));
-console.log(mult(3, 3));
+console.log(sum(10, 3));
